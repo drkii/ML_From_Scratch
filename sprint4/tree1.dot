@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Time <= 50.0\nsamples = 198\nvalue = [151, 47]\nclass = No", fillcolor="#e58139b0"] ;
+1 [label="texture_se <= 0.7751\nsamples = 110\nvalue = [69, 41]\nclass = No", fillcolor="#e5813967"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="radius_worst <= -0.1501\nsamples = 85\nvalue = [46, 39]\nclass = No", fillcolor="#e5813927"] ;
+1 -> 2 ;
+3 [label="samples = 33\nvalue = [25, 8]\nclass = No", fillcolor="#e58139ad"] ;
+2 -> 3 ;
+4 [label="samples = 52\nvalue = [21, 31]\nclass = Yes", fillcolor="#399de552"] ;
+2 -> 4 ;
+5 [label="fractal_dimension_se <= 3.1714\nsamples = 25\nvalue = [23, 2]\nclass = No", fillcolor="#e58139e9"] ;
+1 -> 5 ;
+6 [label="samples = 24\nvalue = [23, 1]\nclass = No", fillcolor="#e58139f4"] ;
+5 -> 6 ;
+7 [label="samples = 1\nvalue = [0, 1]\nclass = Yes", fillcolor="#399de5ff"] ;
+5 -> 7 ;
+8 [label="fractal_dimension_mean <= -1.6583\nsamples = 88\nvalue = [82, 6]\nclass = No", fillcolor="#e58139ec"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="samples = 1\nvalue = [0, 1]\nclass = Yes", fillcolor="#399de5ff"] ;
+8 -> 9 ;
+10 [label="perimeter_mean <= -1.3995\nsamples = 87\nvalue = [82, 5]\nclass = No", fillcolor="#e58139ef"] ;
+8 -> 10 ;
+11 [label="samples = 6\nvalue = [4, 2]\nclass = No", fillcolor="#e581397f"] ;
+10 -> 11 ;
+12 [label="samples = 81\nvalue = [78, 3]\nclass = No", fillcolor="#e58139f5"] ;
+10 -> 12 ;
+}
