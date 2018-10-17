@@ -7,9 +7,10 @@
   - - 学習済みweight(顔検出用)
   - https://www.dropbox.com/s/cjjolgk5h0rc1bk/weights.05-3.15.hdf5?dl=0
 
+# Application Demo
+![image](./okunaga.png)
 
-
-# Project Organization
+# Application Organization
 ------------
 
     ├── LICENSE
